@@ -10,7 +10,8 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'wy#+(&hxnf5$hd=wx)0mffwknu5h+@=u7&e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'bloodbank-uq0c.onrender.com']
+
 
 
 # Application definition
