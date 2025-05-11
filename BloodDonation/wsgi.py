@@ -15,6 +15,6 @@ dotenv.load_dotenv()  # 👈 NEW
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BloodBank.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BloodDonation.settings')
 
 application = get_wsgi_application()
